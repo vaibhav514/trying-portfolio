@@ -20,11 +20,11 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I'm an India based software developer with a goal-driven creative mindset and passion for learning and innovating.
-              Currently studying Computer Science from VIT,Bhopal.
+              Currently studying Computer Science from VIT Bhopal.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java,Python,Nmap. </b>
+                <b className="purple"> Java, MySQL, Nmap. </b>
               </i>
               <br />
               <br />
@@ -39,7 +39,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for Writing quotes
-              and upload it on<b className="purple">Node.js</b> and
+              and upload it on
               <i>
                 <b className="purple">
                   {" "}
