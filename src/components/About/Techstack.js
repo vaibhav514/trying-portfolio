@@ -9,6 +9,8 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiNumpy,
+  Discikit,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -33,6 +35,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNumpy />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <Discikit />
       </Col>
     </Row>
   );
