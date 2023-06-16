@@ -1,25 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-  DiNumpy,
-  Discikit,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { DiPython, DiGit, DiJava } from "react-icons/di";
+import { SiSolidity } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -35,12 +17,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNumpy />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <Discikit />
       </Col>
     </Row>
   );
